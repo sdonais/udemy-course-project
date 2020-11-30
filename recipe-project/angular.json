@@ -121,5 +121,8 @@
       }
     }
   },
-  "defaultProject": "recipe-project"
+  "defaultProject": "recipe-project",
+  "cli": {
+    "analytics": false
+  }
 }
