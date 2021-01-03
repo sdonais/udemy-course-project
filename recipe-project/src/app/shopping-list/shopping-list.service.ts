@@ -19,8 +19,8 @@ export class ShoppingListService {
 
 
     addIngredients(ingredient: Ingredient[]) {
-        // this.ingredients.push(...ingredients); //error? this is what the video showed tho 
-        this.ingredients.push(...ingredient); //works this way for now
+        //this.ingredients.push(...ingredients); //error? this is what the video showed tho 
+        this.ingredients.push(...ingredient); // sort of works this way for now
         this.ingredientsChanged.emit(this.ingredients.slice());
     }
 } 
