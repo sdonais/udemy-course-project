@@ -7,7 +7,7 @@
                         type="submit" 
                         type="btn btn-success"
                         [disabled]="!recipeForm.valid">Save</button>
-                    <button type="button" type="btn btn-danger">Cancel</button>
+                    <button type="button" type="btn btn-danger" (click)="onCancel()">Cancel</button>
                 </div>
             </div>
             <div class="row">
